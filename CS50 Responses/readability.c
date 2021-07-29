@@ -1,4 +1,5 @@
 // Input text to receive reading level according to the Coleman-Liau index
+
 #include <stdio.h>
 #include <cs50.h>
 #include <string.h>
