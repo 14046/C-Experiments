@@ -17,14 +17,9 @@ int endGame();
 int main(int argc, char *argv[])
 {
     // Checks if one argument is inputted into command line
-    if (argc < 2)
+    if (argc != 2)
     {
-        cout << "Enter a word";
-        return 0;
-    }
-    else if (argc > 2)
-    {
-        cout << "Enter only one word";
+        cout << "Usage: ./stickman (word)";
         return 0;
     }
     else
